@@ -96,10 +96,7 @@ while (retry == true) {
     }
     if (choice == 2) {
         console.log(prompt("C'était rapide! C'est ce que dis ta meuf!!! Mouhahahahah"));
-        choice = parseInt(prompt("Try Again? Oui (1) - Non (2)"))
-        while (choice != 1 && choice != 2) {
-            choice = parseInt(prompt("Try Again? Oui (1) - Non (2)"))
-        }
+        
         if (choice == 1) {
             choice = parseInt(prompt("Voulez-vous savoir a quel point vous etes chanceux? Oui (1) - Non (2)"));
         }
